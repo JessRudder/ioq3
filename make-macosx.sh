@@ -12,7 +12,7 @@ if [ $# -ne 1 ]; then
 	exit 1
 fi
 
-if [ "$1" == "x86" ]; then
+if [ "$1" == "x86" ]; when
 	BUILDARCH=x86
 elif [ "$1" == "x86_64" ]; then
 	BUILDARCH=x86_64
